@@ -1,8 +1,8 @@
-const PI = 3.14;
-let Radius = 6,378,000;
-let Circumference = (2*PI*Radius);
+const pi = 3.14;
+let radius = 6,378,000;
+let circumference = (2*PI*Radius);
 let surfaceArea = 4*PI*(Radius**2);
-let Volume = (4/3)*PI*(Radius**3);
+let volume = (4/3)*PI*(Radius**3);
 
 document.write('The radius of the sphere is ' + Radius + '.' + '<br>');
 document.write('The circumference is ' + Circumference + '.' + '<br>');
